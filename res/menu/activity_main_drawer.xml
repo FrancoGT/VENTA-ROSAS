@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@android:drawable/ic_dialog_dialer" android:id="@id/nav_home" android:title="Home" />
+        <item android:icon="@android:drawable/ic_input_get" android:id="@id/nav_log_in" android:title="Log In" />
+        <item android:icon="@android:drawable/ic_menu_info_details" android:id="@id/nav_tool" android:title="Tool" />
+        <item android:icon="@android:drawable/ic_menu_add" android:id="@id/nav_add" android:visible="true" android:title="Add" />
+        <item android:icon="@android:drawable/ic_menu_edit" android:id="@id/nav_edit" android:visible="true" android:title="Edit" />
+        <item android:icon="@android:drawable/ic_menu_delete" android:id="@id/nav_delete" android:visible="true" android:title="Delete" />
+        <item android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@id/nav_exit" android:title="Exit" />
+    </group>
+</menu>

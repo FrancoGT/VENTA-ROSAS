@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="Log In" android:textAlignment="center" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User " android:layout_weight="0.04" />
+    <EditText android:layout_gravity="center_horizontal" android:id="@id/user_txtv_log_in" android:layout_width="185.0dip" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password " android:layout_weight="0.04" />
+    <EditText android:layout_gravity="center_horizontal" android:id="@id/password_txtv_log_in" android:layout_width="173.0dip" android:layout_height="wrap_content" android:ems="10" android:inputType="textPassword" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/signin_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Sign In" android:onClick="m_log_in" android:nestedScrollingEnabled="true" />
+</LinearLayout>

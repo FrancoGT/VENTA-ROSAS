@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:id="@id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="New Product" android:layout_alignParentTop="true" android:layout_toEndOf="@id/textView9" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21.0dip" android:text="Nombre:" android:layout_below="@id/textView8" android:layout_alignParentStart="true" />
+    <EditText android:id="@id/productName" android:layout_width="224.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignTop="@id/textView9" android:layout_alignStart="@id/productDescrip" android:layout_alignEnd="@id/editText3" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Descripcion:" android:layout_alignBaseline="@id/productDescrip" android:layout_alignBottom="@id/productDescrip" android:layout_alignParentStart="true" />
+    <EditText android:id="@id/productDescrip" android:layout_width="228.0dip" android:layout_height="wrap_content" android:layout_marginBottom="26.0dip" android:ems="10" android:layout_above="@id/editText3" android:inputType="textMultiLine" android:layout_alignEnd="@id/editText3" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Precio:" android:layout_alignBaseline="@id/productDescrip" android:layout_alignBottom="@id/productDescrip" android:layout_alignParentStart="true" />
+    <EditText android:id="@id/productoPrice" android:layout_width="233.0dip" android:layout_height="wrap_content" android:ems="10" android:inputType="number" />
+    <Button android:id="@id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" android:onClick="m_add_product" />
+</LinearLayout>
